@@ -12,5 +12,9 @@ module.exports = {
   },
   optimization: {
     minimize: false
-  }
+  },
+  externals: {
+    fs: 'commonjs fs', // Exclude fs from the build
+  },
+  
 };

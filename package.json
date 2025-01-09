@@ -6,7 +6,7 @@
     "test": "mocha",
     "webpack": "webpack --config webpack.config.js"
   },
-  "author": "Atd@xampy",
+  "author": "ATD",
   "license": "ISC",
   "files": [
     "lib/**/*.js",
@@ -15,8 +15,11 @@
   "main": "lib/index.js",
   "module": "lib/main.js",
   "react-native": "lib/main.js",
+  "repository": {
+    "url": "https://github.com/digitaltg/eddsa-jxt-signer-sdk.git"
+  },
   "dependencies": {
-    "@xampyPathcheck/eddsa-jxt-sdk": "https://github.com/Xampy/eddsa-jxt-sdk.git",
+    "@customPathcheck/eddsa-jxt-sdk": "https://github.com/digitaltg/eddsa-jxt-sdk.git",
     "axios": "^1.4.0",
     "chai": "^4.3.7",
     "cross-fetch": "^4.0.0",
