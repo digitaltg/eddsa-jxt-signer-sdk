@@ -40,6 +40,23 @@ const config = {
 }
 ```
 
+or
+
+```javascript
+const config = {
+  PRIVATE_KEYS_URI_BASE: REMOTE_PRIVATE_KEYS_URI_BASE,
+  CREDENTIAL_SCHEMA_TEMPLATES_URI_BASE: REMOTE_CREDENTIAL_SCHEMA_TEMPLATES_URI_BASE,
+  PRIVATE_KEY_URI: null, //DEFAULT_ONG_REMOTE_PRIVATE_KEY_URI,
+  PRIVATE_KEY_JSON: {}, // The json value of the private key
+
+  CREDENTIAL_SCHEMA_TEMPLATE_URI: null,
+  DOMAIN: 'localhost',
+  TYPE: 'sample',
+  VERSION: '1',
+  ENTITY_NAME: 'Ong',
+}
+```
+
 ```javascript
 signer = await atxSigner(config)
 let uri = await signer.sign(ONG_TEST_PAYLOAD)
