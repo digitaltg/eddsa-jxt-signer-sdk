@@ -1,6 +1,6 @@
 {
-  "name": "@digitaltg/eddsa-jxt-sdk",
-  "version": "1.2.0",
+  "name": "@digitaltg/eddsa-jxt-cert-sdk",
+  "version": "2.1.0",
   "description": "Adapted eddsa jsonxt for sunbird rc signed ",
   "scripts": {
     "test": "mocha",
@@ -19,7 +19,7 @@
     "url": "https://github.com/digitaltg/eddsa-jxt-signer-sdk.git"
   },
   "dependencies": {
-    "@customPathcheck/eddsa-jxt-sdk": "https://github.com/digitaltg/eddsa-jxt-sdk.git",
+    "@digitaltg/eddsa-jxt-sdk": "^1.0.0",
     "axios": "^1.4.0",
     "chai": "^4.3.7",
     "cross-fetch": "^4.0.0",
